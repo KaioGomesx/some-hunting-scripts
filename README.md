@@ -2,6 +2,6 @@
 
 ## Find and testing XSS
 
-```python
+```bash
 python3 paramspider.py -d domain.com
 ```
