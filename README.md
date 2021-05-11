@@ -15,6 +15,8 @@ https://github.com/tomnomnom/httprobe
 
 https://github.com/tomnomnom/anew
 
+https://github.com/devanshbatham/ParamSpider
+
 ## Find and testing XSS
 
 ```bash
