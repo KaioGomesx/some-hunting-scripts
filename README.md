@@ -1,4 +1,4 @@
-# my-hunting-scripts
+# Some hunting scripts
 
 ## Tools:
 https://github.com/tomnomnom/gf
