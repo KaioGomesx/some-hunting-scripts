@@ -1,5 +1,14 @@
 # my-hunting-scripts
 
+## Tools:
+https://github.com/tomnomnom/gf
+https://github.com/tomnomnom/waybackurls
+https://github.com/lc/gau
+https://github.com/tomnomnom/qsreplace
+https://github.com/projectdiscovery/httpx
+https://github.com/tomnomnom/httprobe
+https://github.com/tomnomnom/anew
+
 ## Find and testing XSS
 
 ```bash
