@@ -1,4 +1,4 @@
-<h1>Some hunting scripts</h1>
+<h2>Some hunting scripts</h2>
 
 ## Tools:
 https://github.com/tomnomnom/gf
