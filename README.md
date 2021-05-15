@@ -17,6 +17,8 @@ https://github.com/tomnomnom/anew
 
 https://github.com/devanshbatham/ParamSpider
 
+https://github.com/hahwul/dalfox
+
 ## Find and testing XSS
 
 ```bash
